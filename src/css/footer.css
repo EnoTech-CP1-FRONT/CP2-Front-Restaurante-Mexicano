@@ -1,0 +1,36 @@
+footer{
+    margin-top: 200px;
+    background: #02734A;
+    
+}
+
+h5{
+    
+    color: #FFF;
+    font-family: Teko;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.texto{
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Teko;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.direitos{
+    margin-top: 40px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Teko;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

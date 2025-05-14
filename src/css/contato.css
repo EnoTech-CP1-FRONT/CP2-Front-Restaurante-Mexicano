@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container-contato{
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+#container-contato h1{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contato-form{
+    display: flex;
+    
+    
+    padding: 15px 11px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.form label{
+    color: #000;
+    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.descricao{
+    width: 500px;
+    height: 223px;
+    border: 3px solid #000;
+    background: #D9D9D9;
+}
+
+.espaco{
+    margin-left: 34px;
+}
+
+.nomeEmailTelefone{
+    width: 367px;
+    height: 39px;
+    border: 3px solid #000;
+    background: #D9D9D9;
+    margin-top: 34px;
+    
+}
+
+
+
+button{
+    width: 201px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 31px;
+    border: 4px solid #000;
+    background: #FFF;
+
+    color: #000;
+    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
