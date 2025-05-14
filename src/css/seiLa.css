@@ -1,0 +1,17 @@
+.seiLa {
+  margin-top: 35px;
+}
+
+.muchoTexto{
+  width: 874px;
+  height: 164px;
+}
+
+.pera{
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.pera p {
+  font-size: 48px;
+}
