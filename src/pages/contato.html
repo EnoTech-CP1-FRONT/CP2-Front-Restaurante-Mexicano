@@ -7,45 +7,73 @@
     <title>Contato</title>
 </head>
 <body>
+    <header class="sePaUmHeader flex">
+        <div class="logo flex align">
+        <img class="imgsss" src="../assets/logo.png" alt="La Cantina Mexicana Logo">
+        <h1>La Cantina Mexicana</h1>
+        </div>
+        <nav class="navizinha flex align">
+        <ul class="asdasd flex align gap12">
+            <li><a href="#home">Menu</a></li>
+            <li><a href="#menu">Sobre nós</a></li>
+            <li><a href="#about">Contato</a></li>
+            <i class="redes-sociais fa-brands fa-instagram"></i>
+            <i class="redes-sociais fa-brands fa-facebook"></i>
+        </ul>
+        </nav>
+    </header>
     <main id="container-contato">
-        <div class="contato">
-            <div class="contato-form">
-                <form class="form" id="form">
-                    <h1>Cadastre-se</h1>
+        <div class="contato-form">
+            <img class="imagemContato" src="../assets/Contato.jpg" alt="imagem contato">
+            <h1>Entre em Contato</h1>
+            <form class="form" id="form">
+                    
 
-                    <article class="RELATORIO">
-                        <label class="cadastro" for="nome">Nome: </label>
-                        <input class="nomeEmailTelefone espaco" type="text" id="nome">
-                    </article>
+                <article class="RELATORIO">
+                    <label class="cadastro" for="nome">Nome Completo</label>
+                    <input class="nomeEmailMensagem" type="text" id="nome" placeholder="    Informe seu nome e sobrenome">
+                </article>
 
-                    <article class="RELATORIO">
-                        <label class="cadastro" for="email">Email: </label>
-                        <input class="nomeEmailTelefone espaco" type="text" id="email">
-                    </article>
+                <article class="RELATORIO">
+                    <label class="cadastro" for="email">Email</label>
+                    <input class="nomeEmailMensagem" type="text" id="email" placeholder="   Email para contato">
+                </article>
 
-                    <article class="RELATORIO">
-                        <label class="cadastro" for="telefone">Telefone: </label>
-                        <input class="nomeEmailTelefone" type="text" id="telefone">
-                    </article>
+                <article class="RELATORIO">
+                    <label class="cadastro" for="telefone">Mensagem</label>
+                    <input class="nomeEmailMensagem" type="text" id="telefone" placeholder="    Sua mensagem ">
+                </article>
 
-                    <article class="RELATORIO">
-                        <div class = "divDescricao">
-                            <label class="textoDescricao">Descrição:</label>
-                            <input class="descricao" type="text" id="descricao">
-                        </div>
-                    </article>
 
                     
-                </form>
-            </div>
-            <button type="submit">Enviar</button>
+            </form>
         </div>
-        
+        <button type="submit">Enviar</button>
+        <div class="imgTelefones">
+            
+            <article class="mensager">
+                <img class="imagemTelefone" src="../assets/Logo E-mail.png" alt="imagem email">
+                <p class="textoContato">contato@lacantinamexicana.com.br</p>
+            </article>
+            
+            <article class="mensager">
+                <img class="imagemTelefone" src="../assets/Logo Whats.png" alt="imagem email">
+                <p class="textoContato">+55 (11)90067-4154</p>
+            </article>
+            
+            <article class="mensager">
+                <img class="imagemTelefone" src="../assets/Logo Fone.png" alt="imagem email">
+                <p class="textoContato">+55 (11)2965-5030</p>
+            </article>
+        </div>
     </main>
     <footer>
         <h5>Contato</h5>
-        <p class="texto">Telefone: (11) 1234-5678</p>
+        <p class="texto">Fone: (11) 2965-5030</p>
+        <p class="texto">WhatsApp:(11) 90067-4154</p>
         <p class="texto">E-Mail: contato@lacantinamexxicana.com.br</p>
+        <img class="imgFooter" src="../assets/Instagram.png" alt="Instagram">
+        <img class="imgFooter" src="../assets/facebook.png" alt="Facebook">
         <p class="direitos">© 2025 - Todos os direitos reservados</p>
     </footer>
 </body>

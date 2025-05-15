@@ -9,51 +9,30 @@
     background: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 100px;
+    margin-top: 30px;
+    
 }
+
+.imagemContato{
+    width: 808px;
+    height: 483px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: url(<path-to-image>) 1;
+}
+
 #container-contato h1{
     color: #000;
-    font-size: 32px;
+    font-size: 48px;
     font-style: normal;
+    font-family: Teko;
     font-weight: 700;
     line-height: normal;
-    align-self: stretch;
+    margin-top: 40px;
 }
 
-.contato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.contato-form{
-    display: flex;
-    
-    
-    padding: 15px 11px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 34px;
-    
-    border: 1px solid #000;
-    background: #FFF;
-}
-
-.cadastro{
-    color: #000;
-    
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.divDescricao{
-    margin-top: 34px;
+.RELATORIO{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     color: #000;
@@ -65,41 +44,43 @@
     
 }
 
-.descricao{
-    margin-top: 14px;
-    width: 500px;
-    height: 323px;
-    border: 3px solid #000;
-    background: #D9D9D9;
-}
 
-.espaco{
-    margin-left: 34px;
-}
 
-.nomeEmailTelefone{
-    width: 367px;
-    height: 39px;
-    border: 3px solid #000;
-    background: #D9D9D9;
-    margin-top: 34px;
-    
-}
 
+.nomeEmailMensagem{
+    width: 395px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
 
 
 button{
-    width: 201px;
-    height: 52px;
+    margin-top: 40px;
+    width: 124px;
+    height: 32px;
     flex-shrink: 0;
-    border-radius: 31px;
-    border: 4px solid #000;
-    background: #FFF;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #02734A 0%, #04D98C 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-    color: #000;
-    
-    font-size: 32px;
+    color: #fff;
+    font-family: Teko;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
+}
+
+.imgTelefones{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.imagemTelefone{
+    width: 70px;
+    
+    flex-shrink: 0;
 }

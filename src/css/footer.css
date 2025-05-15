@@ -1,5 +1,8 @@
 footer{
+    padding: 30px;
     margin-top: 200px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
     background: #02734A;
     
 }
@@ -22,6 +25,15 @@ h5{
     font-weight: 400;
     line-height: normal;
 }
+
+.imgFooter{
+    width: 84px;
+    height: 82px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: url(../img/footer.png) 1;
+}
+
 .direitos{
     margin-top: 40px;
     color: #FFF;
