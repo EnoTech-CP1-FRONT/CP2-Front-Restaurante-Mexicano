@@ -1,80 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
     <title>Contato</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="sePaUmHeader flex">
-        <div class="logo flex align">
-        <img class="imgsss" src="../assets/logo.png" alt="La Cantina Mexicana Logo">
-        <h1>La Cantina Mexicana</h1>
-        </div>
-        <nav class="navizinha flex align">
+      <div class="logo flex align">
+        <a href="../../index.html"
+          ><img
+            class="iconeTamanho"
+            src="../assets/logo.png"
+            alt="La Cantina Mexicana Logo"
+        /></a>
+        <a href="../../index.html"><h1>La Cantina Mexicana</h1></a>
+      </div>
+      <nav class="navizinha flex align">
         <ul class="asdasd flex align gap12">
-            <li><a href="#home">Menu</a></li>
-            <li><a href="#menu">Sobre nós</a></li>
-            <li><a href="#about">Contato</a></li>
-            <i class="redes-sociais fa-brands fa-instagram"></i>
-            <i class="redes-sociais fa-brands fa-facebook"></i>
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./sobreNos.html">Sobre nós</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <div class="redes">
+            <img
+              class="imgFooter"
+              src="../assets/Instagram.png"
+              alt="Instagram"
+            />
+            <img
+              class="imgFooter"
+              src="../assets/facebook.png"
+              alt="Facebook"
+            />
+          </div>
         </ul>
-        </nav>
+      </nav>
     </header>
     <main id="container-contato">
-        <div class="contato-form">
-            <img class="imagemContato" src="../assets/Contato.jpg" alt="imagem contato">
-            <h1>Entre em Contato</h1>
-            <form class="form" id="form">
-                    
+      <div class="contato-form">
+        <img
+          class="imagemContato"
+          src="../assets/Contato.jpg"
+          alt="imagem contato"
+        />
+        <h1>Entre em Contato</h1>
+        <form class="form" id="form">
+          <article class="RELATORIO">
+            <label class="cadastro" for="nome">Nome Completo</label>
+            <input
+              class="nomeEmailMensagem"
+              type="text"
+              id="nome"
+              placeholder="    Informe seu nome e sobrenome"
+            />
+          </article>
 
-                <article class="RELATORIO">
-                    <label class="cadastro" for="nome">Nome Completo</label>
-                    <input class="nomeEmailMensagem" type="text" id="nome" placeholder="    Informe seu nome e sobrenome">
-                </article>
+          <article class="RELATORIO">
+            <label class="cadastro" for="email">Email</label>
+            <input
+              class="nomeEmailMensagem"
+              type="text"
+              id="email"
+              placeholder="   Email para contato"
+            />
+          </article>
 
-                <article class="RELATORIO">
-                    <label class="cadastro" for="email">Email</label>
-                    <input class="nomeEmailMensagem" type="text" id="email" placeholder="   Email para contato">
-                </article>
+          <article class="RELATORIO">
+            <label class="cadastro" for="telefone">Mensagem</label>
+            <input
+              class="nomeEmailMensagem"
+              type="text"
+              id="telefone"
+              placeholder="    Sua mensagem "
+            />
+          </article>
+        </form>
+      </div>
+      <button type="submit">Enviar</button>
+      <div class="imgTelefones">
+        <article class="mensager">
+          <img
+            class="imagemTelefone"
+            src="../assets/Logo E-mail.png"
+            alt="imagem email"
+          />
+          <p class="textoContato">contato@lacantinamexicana.com.br</p>
+        </article>
 
-                <article class="RELATORIO">
-                    <label class="cadastro" for="telefone">Mensagem</label>
-                    <input class="nomeEmailMensagem" type="text" id="telefone" placeholder="    Sua mensagem ">
-                </article>
+        <article class="mensager">
+          <img
+            class="imagemTelefone"
+            src="../assets/Logo Whats.png"
+            alt="imagem email"
+          />
+          <p class="textoContato">+55 (11)90067-4154</p>
+        </article>
 
-
-                    
-            </form>
-        </div>
-        <button type="submit">Enviar</button>
-        <div class="imgTelefones">
-            
-            <article class="mensager">
-                <img class="imagemTelefone" src="../assets/Logo E-mail.png" alt="imagem email">
-                <p class="textoContato">contato@lacantinamexicana.com.br</p>
-            </article>
-            
-            <article class="mensager">
-                <img class="imagemTelefone" src="../assets/Logo Whats.png" alt="imagem email">
-                <p class="textoContato">+55 (11)90067-4154</p>
-            </article>
-            
-            <article class="mensager">
-                <img class="imagemTelefone" src="../assets/Logo Fone.png" alt="imagem email">
-                <p class="textoContato">+55 (11)2965-5030</p>
-            </article>
-        </div>
+        <article class="mensager">
+          <img
+            class="imagemTelefone"
+            src="../assets/Logo Fone.png"
+            alt="imagem email"
+          />
+          <p class="textoContato">+55 (11)2965-5030</p>
+        </article>
+      </div>
     </main>
     <footer>
-        <h5>Contato</h5>
-        <p class="texto">Fone: (11) 2965-5030</p>
-        <p class="texto">WhatsApp:(11) 90067-4154</p>
-        <p class="texto">E-Mail: contato@lacantinamexxicana.com.br</p>
-        <img class="imgFooter" src="../assets/Instagram.png" alt="Instagram">
-        <img class="imgFooter" src="../assets/facebook.png" alt="Facebook">
-        <p class="direitos">© 2025 - Todos os direitos reservados</p>
+      <h5>Contato</h5>
+      <p class="texto">Fone: (11) 2965-5030</p>
+      <p class="texto">WhatsApp:(11) 90067-4154</p>
+      <p class="texto">E-Mail: contato@lacantinamexxicana.com.br</p>
+      <img class="imgFooter" src="../assets/Instagram.png" alt="Instagram" />
+      <img class="imgFooter" src="../assets/facebook.png" alt="Facebook" />
+      <p class="direitos">© 2025 - Todos os direitos reservados</p>
     </footer>
-</body>
+  </body>
 </html>

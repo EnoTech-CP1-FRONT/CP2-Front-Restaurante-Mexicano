@@ -36,18 +36,13 @@
   align-items: center;
 }
 
-.imgsss {
-  height: 148px;
-  width: 172px;
-}
-
 .imgsPrincipal {
   height: 441px;
   width: 1058px;
 }
 
 .border {
-  border-radius: 10px
+  border-radius: 50px
 }
 
 .font-30px {
