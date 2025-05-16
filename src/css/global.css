@@ -48,3 +48,23 @@
 .font-30px {
   font-size: 30px;
 }
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+@media (max-width: 980px) {
+  .muchoTexto {
+    width: 500px;
+    height: auto;
+  }
+
+  .imgsPrincipal {
+  height: 441px;
+  width: 658px;
+  }
+}

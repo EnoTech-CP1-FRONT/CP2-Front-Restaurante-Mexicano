@@ -17,16 +17,59 @@
   height: 148px;
 }
 
-.asdasd {
+.ulNav {
   list-style: none;
 }
 
-.asdasd li a {
+.ulNav li a {
   text-decoration: none;
   color: var(--color-primary);
   font-size: 32px;
 }
 
-.asdasd li {
+.ulNav li {
   margin-left: 29px;
+}
+
+@media (max-width: 980px) {
+  .ulNav {
+    margin-top: 78px;
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 80px; /* ajuste conforme seu header */
+    right: 0;
+    width: 70vw;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 24px 0;
+    z-index: 100;
+    border-radius: 0 0 0 16px;
+    align-items: flex-start;
+  }
+
+  .ulNav.active {
+    display: flex;
+  }
+
+  .bars {
+    display: flex;
+    cursor: pointer;
+    z-index: 101;
+  }
+
+  .navBar {
+    justify-content: space-between;
+  }
+
+  .ulNav li {
+    margin: 16px 0 0 24px;
+  }
+
+  .redes {
+    margin-left: 24px;
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+  }
 }

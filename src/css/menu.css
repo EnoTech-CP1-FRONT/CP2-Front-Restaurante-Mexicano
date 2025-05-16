@@ -21,7 +21,7 @@
 .divider-hr span {
   font-size: 48px;
   color: #000;
-  padding: 0 10px; /* Adiciona espaço ao redor do texto para não tocar nas linhas */
+  padding: 0 10px; 
 }
 
 .menu {
@@ -48,7 +48,6 @@
   margin-top: 48px;
 }
 
-/* Opcional: centralizar texto dos produtos */
 .cardapio > div {
   display: flex;
   flex-direction: column;
@@ -63,4 +62,11 @@
   width: 308px;
   height: 154px;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .cardapio {
+    grid-template-columns: 1fr;
+    gap: 54px;
+  }
 }
